@@ -1,5 +1,5 @@
 var a = document.getElementById('btn');
-a.addEventListener('click', function(){
+addEventListener('click', function (){
     var section = document.createElement('section');
     section.setAttribute('id', 1);
     document.getElementById('wrapper').appendChild(section);
